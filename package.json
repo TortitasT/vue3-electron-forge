@@ -1,0 +1,37 @@
+{
+  "name": "vue3-electron-forge",
+  "description": "Vue 3 electron forge template",
+  "author": {
+    "name": "Tortitas",
+    "email": "victorgf2011@gmail.com"
+  },
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "electron:start": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "electron": "^23.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vue-tsc": "^1.0.24"
+  }
+}
